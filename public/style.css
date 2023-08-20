@@ -3,26 +3,13 @@ body {
     background-color: #82bbf3; /* Color de fondo claro azulado */
     color: #333; /* Color principal del texto */
     text-align: center;
-    margin-top: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     transition: all 0.3s ease; /* Agregado para transiciones suaves */
 }
 
 /* Podemos agregar más detalles para enriquecer el diseño */
 
-h1, h2, h3 {
-    color: #004d7a; /* Color azul oscuro */
-}
-
-a {
-    color: #007acc; /* Color azul enlace */
-    text-decoration: none; 
-    transition: all 0.3s ease;
-}
-
-a:hover {
-    color: #004d7a; /* Color azul oscuro al pasar el cursor */
-    text-decoration: underline;
-}
 
 button, input[type="submit"], .btn {
     background-color: #007acc; /* Color azul botón */
@@ -31,6 +18,7 @@ button, input[type="submit"], .btn {
     padding: 10px 20px;
     border-radius: 5px; /* Bordes redondeados */
     transition: all 0.3s ease;
+    margin: 15px 0;
 }
 
 button:hover, input[type="submit"]:hover, .btn:hover {
